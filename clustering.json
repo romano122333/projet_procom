@@ -1,0 +1,2112 @@
+{
+    "questions": [
+        {
+            "question": "Type de clustering",
+            "options": [
+                "Hard Clustering",
+                "Soft Clustering",
+                "Représentation Graphique (Dendogramme)",
+                "Pas d'importance"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "inf_neg",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "inf_neg",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "inf_neg",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "inf_neg",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "inf_neg",
+                        "0",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "0",
+                        "inf_neg",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "0",
+                        "inf_neg",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "inf_neg",
+                        "0",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "0",
+                        "inf_neg",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "0",
+                        "inf_neg",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "inf_neg",
+                        "0",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "inf_neg",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "inf_neg",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "inf_neg",
+                        "0",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Quantité de données à traiter*",
+            "options": [
+                "Faible",
+                "Élevée"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "10",
+                        "inf_neg"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Temps de traitement ",
+            "options": [
+                "Peut être élevé",
+                "Faible"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Nombre de clusters connus à l'avance ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "0",
+                        "inf_neg"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Transparence du modèle",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "inf_neg",
+                        "10"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Dimension de données importantes ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "inf_neg",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Besoin de réduire la dimension des données avant clustering ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "inf_neg",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Nécessité d'un forte robustesse au données bruitées (en contrepartie, plus de complexité)",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "inf_neg",
+                        "10"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Des informations dans les données sont manquantes ?***",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "inf_neg",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Peu de valeurs abérrantes ?**",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "10",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "La répartition des données est déséquilibrée ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Sûr que toutes les composantes sont importantes ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        }
+    ]
+}
