@@ -22,3 +22,12 @@ question.js ==> version pas finie adaptée pour VSCode directement
 recommencer.png ==> petite icône
 
 style.css ==> appelé par le html.
+
+**Pour se servir de l'arbre
+**
+À mettre dans le terminal :
+>> cd Desktop/Dossier_Procom
+>> python3 -m http.server 8000
+
+Puis sur Google Chrome :
+localhost:8000
