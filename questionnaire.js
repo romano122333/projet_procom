@@ -61,6 +61,7 @@ function askQuestions(idx) {
     // Vérifie si la question actuelle est viable
     const question = jsonData.questions[idx];
     const questionViable = isViableQuestion(question, aliveModels)
+    console.log(questionViable);
     if (!questionViable) {
         // Passer à la question suivante si celle-ci n'est pas viable
         askQuestions(idx + 1);
@@ -96,6 +97,7 @@ function stillAlive() {
             listeAlive.push(alg);
         }
     }
+    console.log(listeAlive);
     return listeAlive;
 }
 
