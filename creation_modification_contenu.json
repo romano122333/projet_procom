@@ -1,0 +1,1075 @@
+{
+    "questions": [
+        {
+            "question": "Type de média",
+            "options": [
+                "Texte",
+                "Image",
+                "Audio",
+                "Vidéo"
+            ],
+            "scores": [
+                {
+                    "Régression Logistique": [
+                        "0",
+                        "inf_neg",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "RNN": [
+                        "0",
+                        "inf_neg",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "LSTM": [
+                        "0",
+                        "inf_neg",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "GPT": [
+                        "0",
+                        "inf_neg",
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "GAN": [
+                        "inf_neg",
+                        "0",
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "VAE": [
+                        "inf_neg",
+                        "0",
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Stable Diffusion": [
+                        "inf_neg",
+                        "0",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "DALL-E": [
+                        "inf_neg",
+                        "0",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Midjourney": [
+                        "inf_neg",
+                        "0",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "LSTM Audio": [
+                        "inf_neg",
+                        "inf_neg",
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "WaveNet": [
+                        "inf_neg",
+                        "inf_neg",
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "IA vocale générative": [
+                        "inf_neg",
+                        "inf_neg",
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "IA de restauration vocale": [
+                        "inf_neg",
+                        "inf_neg",
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "k-NN Vidéo": [
+                        "inf_neg",
+                        "inf_neg",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN Vidéo": [
+                        "inf_neg",
+                        "inf_neg",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "NeRF": [
+                        "inf_neg",
+                        "inf_neg",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Style Transfer": [
+                        "inf_neg",
+                        "inf_neg",
+                        "inf_neg",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Existence de données d'entraînement variées et structurées ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Régression Logistique": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "RNN": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "LSTM": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "GPT": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "VAE": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Stable Diffusion": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "DALL-E": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Midjourney": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM Audio": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "WaveNet": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "IA vocale générative": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "IA de restauration vocale": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "k-NN Vidéo": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN Vidéo": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "NeRF": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Style Transfer": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Besoin de personnalisation/créativité ?",
+            "options": [
+                "faible",
+                "élévée"
+            ],
+            "scores": [
+                {
+                    "Régression Logistique": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "RNN": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "LSTM": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "GPT": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "GAN": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "VAE": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Stable Diffusion": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "DALL-E": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Midjourney": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM Audio": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "WaveNet": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "IA vocale générative": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "IA de restauration vocale": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "k-NN Vidéo": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN Vidéo": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "NeRF": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "Style Transfer": [
+                        "0",
+                        "10"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Tolérance à une difficulté de mise en place?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Régression Logistique": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "RNN": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "LSTM": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "GPT": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "GAN": [
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "VAE": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Stable Diffusion": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "DALL-E": [
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Midjourney": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "LSTM Audio": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "WaveNet": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "IA vocale générative": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "IA de restauration vocale": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "k-NN Vidéo": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "GAN Vidéo": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "NeRF": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Style Transfer": [
+                        "10",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Fiabilité des résultats?",
+            "options": [
+                "faible",
+                "élévée"
+            ],
+            "scores": [
+                {
+                    "Régression Logistique": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "RNN": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "LSTM": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "GPT": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "GAN": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "VAE": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Stable Diffusion": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "DALL-E": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "Midjourney": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "LSTM Audio": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "WaveNet": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "IA vocale générative": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "IA de restauration vocale": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "k-NN Vidéo": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN Vidéo": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "NeRF": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Style Transfer": [
+                        "0",
+                        "10"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Quantité de données à traiter ?",
+            "options": [
+                "faible",
+                "élévé"
+            ],
+            "scores": [
+                {
+                    "Régression Logistique": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "RNN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "GPT": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "GAN": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "VAE": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Stable Diffusion": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "DALL-E": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "Midjourney": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "LSTM Audio": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "WaveNet": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "IA vocale générative": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "IA de restauration vocale": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "k-NN Vidéo": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "GAN Vidéo": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "NeRF": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Style Transfer": [
+                        "0",
+                        "20"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Les données sont-elles bruitées ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Régression Logistique": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "RNN": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "GPT": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "VAE": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Stable Diffusion": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "DALL-E": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Midjourney": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM Audio": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "WaveNet": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "IA vocale générative": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "IA de restauration vocale": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "k-NN Vidéo": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN Vidéo": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "NeRF": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Style Transfer": [
+                        "10",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Type de contenu ?",
+            "options": [
+                "Simple",
+                "Complexe",
+                "Réaliste"
+            ],
+            "scores": [
+                {
+                    "Régression Logistique": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "RNN": [
+                        "0",
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "LSTM": [
+                        "0",
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "GPT": [
+                        "0",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "GAN": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "VAE": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Stable Diffusion": [
+                        "0",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "DALL-E": [
+                        "0",
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "Midjourney": [
+                        "0",
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "LSTM Audio": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "WaveNet": [
+                        "10",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "IA vocale générative": [
+                        "20",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "IA de restauration vocale": [
+                        "20",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "k-NN Vidéo": [
+                        "10",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN Vidéo": [
+                        "0",
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "NeRF": [
+                        "10",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Style Transfer": [
+                        "10",
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Taille / longueur attendu du contenu ?",
+            "options": [
+                "Simple",
+                "Moyen",
+                "Elevé"
+            ],
+            "scores": [
+                {
+                    "Régression Logistique": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "RNN": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM": [
+                        "0",
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "GPT": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN": [
+                        "0",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "VAE": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Stable Diffusion": [
+                        "0",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "DALL-E": [
+                        "0",
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "Midjourney": [
+                        "0",
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "LSTM Audio": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "WaveNet": [
+                        "10",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "IA vocale générative": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "IA de restauration vocale": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "k-NN Vidéo": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN Vidéo": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "NeRF": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Style Transfer": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                }
+            ]
+        }
+    ]
+}

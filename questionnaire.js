@@ -2,24 +2,54 @@ let jsonData; // Pour stocker les données JSON
 let scoresDict = {}; // Dictionnaire des scores des algorithmes
 
 // Charger le fichier JSON via fetch
-fetch('clustering.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error("Impossible de lire le fichier clustering.json");
-        }
-        return response.json();
-    })
-    .then(data => {
-        jsonData = data; // Charger les données JSON
-        initializeScores(jsonData); // Initialiser les scores des algorithmes
-        askQuestions(0); // Commencer le processus de questions
-    })
-    .catch(error => {
-        console.error("Erreur lors du chargement du fichier JSON :", error);
-});
+function chooseUseCase() {
+    const questionElement = document.getElementById('question');
+    const optionsContainer = document.getElementById('options');
+
+    questionElement.textContent = 'Quel cas d\'usage souhaitez-vous choisir ?';
+
+    const useCases = {
+        "Clustering": "clustering.json",
+        "Classification": "classification.json",
+        "Détection d'Anomalie": "detection_anomalies.json",
+        "Prédiction et Régression": "prediction.json",
+        "Création / Modification de contenu": "creation_modification_contenu.json"
+    };
+
+    optionsContainer.innerHTML = ''; // Effacer les anciennes options
+
+    for (let [useCase, jsonFile] of Object.entries(useCases)) {
+        const button = document.createElement('button');
+        button.textContent = useCase;
+        button.className = 'option-button';
+        button.addEventListener('click', () => {
+            loadJSON(jsonFile); // Charger le fichier JSON correspondant
+        });
+        optionsContainer.appendChild(button);
+    }
+}
+
+function loadJSON(jsonFile) {
+    fetch(jsonFile)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Impossible de lire le fichier ${jsonFile}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            jsonData = data;
+            initializeScores(jsonData); // Initialiser les scores des algorithmes
+            askQuestions(0); // Commencer les questions
+        })
+        .catch(error => {
+            console.error("Erreur lors du chargement du fichier JSON :", error);
+        });
+}
 
 // Initialiser les scores des algorithmes à 0
 function initializeScores(data) {
+    scoresDict = {};
     data.questions[0].scores.forEach((scoreObj) => {
         for (let key in scoreObj) {
             scoresDict[key] = 0; // Initialise chaque algorithme avec un score de 0
@@ -52,18 +82,16 @@ function isViableQuestion(question, aliveModels) {
 // Fonction pour poser les questions
 function askQuestions(idx) {
     if (idx >= jsonData.questions.length) {
-        showFinalScores(scoresDict); // Afficher les scores finaux quand toutes les questions sont répondues
+        showFinalScores(scoresDict); // Afficher les scores finaux
         return;
     }
 
     const aliveModels = stillAlive();
-
-    // Vérifie si la question actuelle est viable
+    console.log(aliveModels);
     const question = jsonData.questions[idx];
-    const questionViable = isViableQuestion(question, aliveModels)
-    console.log(questionViable);
-    if (!questionViable) {
-        // Passer à la question suivante si celle-ci n'est pas viable
+
+
+    if (!isViableQuestion(question, aliveModels)) {
         askQuestions(idx + 1);
         return;
     }
@@ -71,18 +99,16 @@ function askQuestions(idx) {
     const questionElement = document.getElementById('question');
     const optionsContainer = document.getElementById('options');
 
-    // Mettre à jour la question affichée
     questionElement.textContent = question.question;
+    optionsContainer.innerHTML = ''; // Effacer les anciennes options
 
-    // Effacer les anciennes options et ajouter les nouvelles
-    optionsContainer.innerHTML = '';
     question.options.forEach((option, i) => {
         const button = document.createElement('button');
         button.textContent = option;
         button.className = 'option-button';
         button.addEventListener('click', () => {
-            handleAnswer(i, question.scores); // Gérer la réponse de l'utilisateur
-            askQuestions(idx + 1); // Passer à la question suivante
+            handleAnswer(i, question.scores);
+            askQuestions(idx + 1);
         });
         optionsContainer.appendChild(button);
     });
@@ -97,7 +123,6 @@ function stillAlive() {
             listeAlive.push(alg);
         }
     }
-    console.log(listeAlive);
     return listeAlive;
 }
 
@@ -176,5 +201,7 @@ function resetAlgorithm() {
     restartButton.style.display = 'none'; // Cacher le bouton relancer
 
     // Redémarrer l'algorithme
-    askQuestions(0); // Recommence à la première question
+    chooseUseCase();
 }
+
+chooseUseCase();
