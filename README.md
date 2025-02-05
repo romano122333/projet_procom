@@ -1,8 +1,8 @@
 # projet_procom
 
-clustering.csv ==> format de sortie du Google Sheets
+.csv ==> format de sortie du Google Sheets
 
-clustering.json ==> fichier csv traité par le python csv_to_json.py
+.json ==> fichiers csv traités par le python csv_to_json.py
 
 csv_to_json.py ==> fichier qui transforme le csv en json
 /!\ il doit être dans le même dossier en local,
