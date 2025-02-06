@@ -1,0 +1,2017 @@
+{
+    "questions": [
+        {
+            "question": "Quelle est la taille de votre base de données d'entraînement ?",
+            "options": [
+                "Élevée",
+                "Faible"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CART": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "0",
+                        "inf_neg"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Données visuelles",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CART": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "inf_neg",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Données Tabulaires",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "CART": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Apprennent à mesure qu'on les alimente ? ",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CART": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "20",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Interpretabilité des résultats",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "CART": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Haute dimensionnalité des données ?",
+            "options": [
+                "Complexes",
+                "Simples"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CART": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Rapidité d'exécution / d'entraînement",
+            "options": [
+                "Rapide",
+                "Peut être lent"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "CART": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "20",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Il existe des relations linéaires entre les données",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "CART": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "inf_neg",
+                        "10"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Robustesse aux données bruitées",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "CART": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "10",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Les classes sont-elles déséquilibrées en termes de données",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "CART": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "10",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Estimez-vous que vos données sont suffisamment variées et à nombre suffisemment grand pour éviter l'overfitting ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Arbres de Décision": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "CART": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Model Trees (LMT)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Machines": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "AdaBoost": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Hist Gradient Boosting": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CutBoost": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CatGBM": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Logistic Regression": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Perceptron": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Quadratic Discriminant Analysis": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Linear Discriminant Analysis (LDA)": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Multilayer Perceptron (MLP)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Radial Basis Function (RBF) Networks": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Probabilistic Neural Networks (PNN)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Réseaux de Neurones Convolutifs": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Naives Bayes": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Bayesian Networks": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "k-Nearest Neighbors": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Nearest Centroid Classifier": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Support Vector Machines (SVM)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Stacking": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Bagging": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fisher's Linear Discriminant": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "Extreme Learning Machines (ELM)": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Passive-Aggressive Classifiers": [
+                        "0",
+                        "inf_neg"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,7 +1,6 @@
-let jsonData; // Pour stocker les données JSON
-let scoresDict = {}; // Dictionnaire des scores des algorithmes
+let jsonData;
+let scoresDict = {};
 
-// Charger le fichier JSON via fetch
 function chooseUseCase() {
     const questionElement = document.getElementById('question');
     const optionsContainer = document.getElementById('options');
@@ -128,11 +127,13 @@ function stillAlive() {
 
 // Gérer la réponse de l'utilisateur et mettre à jour les scores
 function handleAnswer(selectedOptionIndex, scores) {
+    const question = jsonData.questions[currentQuestionIndex];
+    const chosenOption = question.options[selectedOptionIndex];
+
+    updateHistory(question.question, chosenOption);
     scores.forEach((scoreObj) => {
         for (let alg in scoreObj) {
             const currentScore = scoreObj[alg][selectedOptionIndex] === 'inf_neg' ? -Infinity : parseInt(scoreObj[alg][selectedOptionIndex]);
-
-            // Si le score actuel est -Infinity ou si le score global est déjà -Infinity, le score reste -Infinity
             if (currentScore === -Infinity || scoresDict[alg] === -Infinity) {
                 scoresDict[alg] = -Infinity;
             } else {
@@ -202,6 +203,24 @@ function resetAlgorithm() {
 
     // Redémarrer l'algorithme
     chooseUseCase();
+}
+
+function updateHistory(question, chosenOption) {
+    const historyContainer = document.getElementById('history-container');
+
+    // Créer une div pour chaque question
+    const questionDiv = document.createElement('div');
+    questionDiv.className = 'history-item';
+    
+    // Ajouter la question et la réponse choisie
+    questionDiv.innerHTML = `
+        <p><strong>Question :</strong> ${question}</p>
+        <p><strong>Réponse choisie :</strong> ${chosenOption}</p>
+        <hr>
+    `;
+    
+    // Ajouter l’élément au conteneur d’historique
+    historyContainer.appendChild(questionDiv);
 }
 
 chooseUseCase();

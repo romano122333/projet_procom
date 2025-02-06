@@ -17,6 +17,25 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
+    margin: 0 auto;
+}
+
+.container2 {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-left: 0;
+}
+
+.containerv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .result_list_class {
@@ -48,6 +67,14 @@ body {
     background-color: #0056b3;
 }
 
+.history-item {
+    margin-bottom: 10px;
+}
+
+.history-item p {
+    margin: 5px 0;
+}
+
 .relancer button {
     display: block;
     width: 100%;
@@ -69,4 +96,23 @@ body {
 
 .image {
     width: 10px;
+}
+
+#permanent-restart-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.3s ease;
+}
+
+#permanent-restart-button:hover {
+    background-color: #45a049; /* Changement de couleur au survol */
+}
+
+#permanent-restart-button:active {
+    transform: scale(0.95); /* Légère réduction de taille au clic */
 }
