@@ -1,6 +1,9 @@
 let jsonData;
 let scoresDict = {};
 
+const restartButton = document.getElementById('permanent-restart-button');
+restartButton.addEventListener('click', resetAlgorithm);
+
 function chooseUseCase() {
     const questionElement = document.getElementById('question');
     const optionsContainer = document.getElementById('options');
@@ -106,7 +109,7 @@ function askQuestions(idx) {
         button.textContent = option;
         button.className = 'option-button';
         button.addEventListener('click', () => {
-            handleAnswer(i, question.scores);
+            handleAnswer(i, question.scores, idx);
             askQuestions(idx + 1);
         });
         optionsContainer.appendChild(button);
@@ -126,7 +129,7 @@ function stillAlive() {
 }
 
 // Gérer la réponse de l'utilisateur et mettre à jour les scores
-function handleAnswer(selectedOptionIndex, scores) {
+function handleAnswer(selectedOptionIndex, scores, currentQuestionIndex) {
     const question = jsonData.questions[currentQuestionIndex];
     const chosenOption = question.options[selectedOptionIndex];
 
@@ -176,8 +179,32 @@ function showFinalScores(scoresDict) {
     restartButton.addEventListener('click', resetAlgorithm); // Relie le clic au reset
 }
 
+function updateHistory(question, chosenOption) {
+    const historyContainer = document.getElementById('history-container');
+
+    // Créer une div pour chaque question
+    const questionDiv = document.createElement('div');
+    questionDiv.className = 'history-item';
+    
+    // Ajouter la question et la réponse choisie
+    questionDiv.innerHTML = `
+        <p><strong>Question :</strong> ${question}</p>
+        <p><strong>Réponse choisie :</strong> ${chosenOption}</p>
+        <hr>
+    `;
+    
+    // Ajouter l’élément au conteneur d’historique
+    historyContainer.appendChild(questionDiv);
+}
+
+
 // Fonction pour réinitialiser l'algorithme
 function resetAlgorithm() {
+    // Vider les réponses
+    const historyContainer = document.getElementById('history-container');
+    historyContainer.innerHTML = '';
+
+
     // Réinitialiser les scores
     for (let key in scoresDict) {
         scoresDict[key] = 0;
@@ -203,24 +230,6 @@ function resetAlgorithm() {
 
     // Redémarrer l'algorithme
     chooseUseCase();
-}
-
-function updateHistory(question, chosenOption) {
-    const historyContainer = document.getElementById('history-container');
-
-    // Créer une div pour chaque question
-    const questionDiv = document.createElement('div');
-    questionDiv.className = 'history-item';
-    
-    // Ajouter la question et la réponse choisie
-    questionDiv.innerHTML = `
-        <p><strong>Question :</strong> ${question}</p>
-        <p><strong>Réponse choisie :</strong> ${chosenOption}</p>
-        <hr>
-    `;
-    
-    // Ajouter l’élément au conteneur d’historique
-    historyContainer.appendChild(questionDiv);
 }
 
 chooseUseCase();
