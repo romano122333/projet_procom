@@ -1,6 +1,8 @@
 let jsonData;
 let scoresDict = {};
 
+let algo;
+
 const restartButton = document.getElementById('permanent-restart-button');
 restartButton.addEventListener('click', resetAlgorithm);
 
@@ -32,6 +34,7 @@ function chooseUseCase() {
 }
 
 function loadJSON(jsonFile) {
+    algo = true;
     fetch(jsonFile)
         .then(response => {
             if (!response.ok) {
@@ -148,6 +151,7 @@ function handleAnswer(selectedOptionIndex, scores, currentQuestionIndex) {
 
 // Afficher le bouton de redémarrage après les résultats
 function showFinalScores(scoresDict) {
+    algo = false;
     // Récupère la section des résultats
     const resultsSection = document.getElementById('results-section');
     const resultsList = document.getElementById('results-list');
@@ -180,21 +184,23 @@ function showFinalScores(scoresDict) {
 }
 
 function updateHistory(question, chosenOption) {
-    const historyContainer = document.getElementById('history-container');
+    if (algo){
+        const historyContainer = document.getElementById('history-container');
 
-    // Créer une div pour chaque question
-    const questionDiv = document.createElement('div');
-    questionDiv.className = 'history-item';
-    
-    // Ajouter la question et la réponse choisie
-    questionDiv.innerHTML = `
-        <p><strong>Question :</strong> ${question}</p>
-        <p><strong>Réponse choisie :</strong> ${chosenOption}</p>
-        <hr>
-    `;
-    
-    // Ajouter l’élément au conteneur d’historique
-    historyContainer.appendChild(questionDiv);
+        // Créer une div pour chaque question
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'history-item';
+        
+        // Ajouter la question et la réponse choisie
+        questionDiv.innerHTML = `
+            <p><strong>Question :</strong> ${question}</p>
+            <p><strong>Réponse choisie :</strong> ${chosenOption}</p>
+            <hr>
+        `;
+        
+        // Ajouter l’élément au conteneur d’historique
+        historyContainer.appendChild(questionDiv);
+    }
 }
 
 
