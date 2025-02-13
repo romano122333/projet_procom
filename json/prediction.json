@@ -124,6 +124,518 @@
             ]
         },
         {
+            "question": "Quel type de performance voulez-vous priorisez ?",
+            "options": [
+                "Vitesse d'inférence",
+                "Vitesse d'entraînement",
+                "Peu importe"
+            ],
+            "scores": [
+                {
+                    "Regression linéaire": [
+                        "20",
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Lasso": [
+                        "20",
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Ridge": [
+                        "20",
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "10",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "10",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "20",
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "CatBoost": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "SARIMA": [
+                        "20",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Prophet": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "ARIMA": [
+                        "20",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "LTSM": [
+                        "10",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Elastic Net": [
+                        "20",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Regression": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "KNN Regression": [
+                        "inf_neg",
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "SVR": [
+                        "10",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Quantile Regression": [
+                        "20",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Exponential Smoothing": [
+                        "20",
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Regression": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "DeepAR": [
+                        "10",
+                        "inf_neg",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la nature des données ?",
+            "options": [
+                "Données numériques uniquement",
+                "Présence de données catégoriques importante"
+            ],
+            "scores": [
+                {
+                    "Regression linéaire": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Lasso": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Ridge": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "CatBoost": [
+                        "inf_neg",
+                        "10"
+                    ]
+                },
+                {
+                    "SARIMA": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Prophet": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "ARIMA": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "LTSM": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Elastic Net": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Bayesian Regression": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "KNN Regression": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "SVR": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Quantile Regression": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Exponential Smoothing": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Gradient Boosting Regression": [
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "DeepAR": [
+                        "10",
+                        "inf_neg"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Le modèle doit-il être obligatoirement interprétable ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Regression linéaire": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Lasso": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Ridge": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "CatBoost": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "SARIMA": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Prophet": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "ARIMA": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "LTSM": [
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Elastic Net": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Regression": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "KNN Regression": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "SVR": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Quantile Regression": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Exponential Smoothing": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Regression": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "DeepAR": [
+                        "inf_neg",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Avez-vous réalisé une analyse des données ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Regression linéaire": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Lasso": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Ridge": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Random Forest": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CatBoost": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "SARIMA": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Prophet": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "ARIMA": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LTSM": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Elastic Net": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Bayesian Regression": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "KNN Regression": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "SVR": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Quantile Regression": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Exponential Smoothing": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Gradient Boosting Regression": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "DeepAR": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
             "question": "Quelle est la taille du jeu de données ?",
             "options": [
                 "Petite (< 1 000 échantillons)",
@@ -533,272 +1045,6 @@
             ]
         },
         {
-            "question": "Quel type de performance voulez-vous priorisez ?",
-            "options": [
-                "Vitesse d'inférence",
-                "Vitesse d'entraînement",
-                "Peu importe"
-            ],
-            "scores": [
-                {
-                    "Regression linéaire": [
-                        "20",
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "Lasso": [
-                        "20",
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "Ridge": [
-                        "20",
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "Random Forest": [
-                        "10",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "XGBoost": [
-                        "10",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "LightGBM": [
-                        "20",
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "CatBoost": [
-                        "10",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "SARIMA": [
-                        "20",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "Prophet": [
-                        "10",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "ARIMA": [
-                        "20",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "LTSM": [
-                        "10",
-                        "inf_neg",
-                        "0"
-                    ]
-                },
-                {
-                    "Elastic Net": [
-                        "20",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "Bayesian Regression": [
-                        "10",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "KNN Regression": [
-                        "inf_neg",
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "SVR": [
-                        "10",
-                        "inf_neg",
-                        "0"
-                    ]
-                },
-                {
-                    "Quantile Regression": [
-                        "20",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "Exponential Smoothing": [
-                        "20",
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "Gradient Boosting Regression": [
-                        "10",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "DeepAR": [
-                        "10",
-                        "inf_neg",
-                        "0"
-                    ]
-                }
-            ]
-        },
-        {
-            "question": "Quelle est la nature des données ?",
-            "options": [
-                "Données numériques uniquement",
-                "Présence de données catégoriques importante"
-            ],
-            "scores": [
-                {
-                    "Regression linéaire": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Lasso": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Ridge": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Random Forest": [
-                        "10",
-                        "10"
-                    ]
-                },
-                {
-                    "XGBoost": [
-                        "10",
-                        "10"
-                    ]
-                },
-                {
-                    "LightGBM": [
-                        "10",
-                        "10"
-                    ]
-                },
-                {
-                    "CatBoost": [
-                        "inf_neg",
-                        "10"
-                    ]
-                },
-                {
-                    "SARIMA": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Prophet": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "ARIMA": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "LTSM": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Elastic Net": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Bayesian Regression": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "KNN Regression": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "SVR": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Quantile Regression": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Exponential Smoothing": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Gradient Boosting Regression": [
-                        "10",
-                        "10"
-                    ]
-                },
-                {
-                    "DeepAR": [
-                        "10",
-                        "inf_neg"
-                    ]
-                }
-            ]
-        },
-        {
             "question": "Les dépendances temporelles sont-elles complexes ?",
             "options": [
                 "Tendances ou saisonnalités",
@@ -977,149 +1223,6 @@
                         "20",
                         "20",
                         "inf_neg"
-                    ]
-                }
-            ]
-        },
-        {
-            "question": "Le modèle doit-il être interprétable ?",
-            "options": [
-                "Oui",
-                "Non",
-                "Pas d'importance"
-            ],
-            "scores": [
-                {
-                    "Regression linéaire": [
-                        "20",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Lasso": [
-                        "20",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Ridge": [
-                        "20",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Random Forest": [
-                        "inf_neg",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "XGBoost": [
-                        "inf_neg",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "LightGBM": [
-                        "inf_neg",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "CatBoost": [
-                        "inf_neg",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "SARIMA": [
-                        "20",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Prophet": [
-                        "20",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "ARIMA": [
-                        "20",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "LTSM": [
-                        "inf_neg",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Elastic Net": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Bayesian Regression": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "KNN Regression": [
-                        "20",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "SVR": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Quantile Regression": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Exponential Smoothing": [
-                        "20",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Gradient Boosting Regression": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "DeepAR": [
-                        "inf_neg",
-                        "0",
-                        "0"
                     ]
                 }
             ]

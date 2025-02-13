@@ -33,10 +33,10 @@ def csv_to_json(file_path):
     return json.dumps(data, indent=4, ensure_ascii=False)
 
 file_path = input("Veuillez entrer le nom du fichier CSV : ")
-file_path_complet = file_path + ".csv"
+file_path_complet = "csv/" + file_path + ".csv"
 json_data = csv_to_json(file_path_complet)
 
-json_file_name = file_path + ".json"
+json_file_name = "json/" + file_path + ".json"
 
 with open(json_file_name, mode='w', encoding='utf-8') as json_file:
     json_file.write(json_data)

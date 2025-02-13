@@ -508,7 +508,7 @@
                 {
                     "GPT": [
                         "0",
-                        "20"
+                        "10"
                     ]
                 },
                 {
@@ -592,6 +592,117 @@
             ]
         },
         {
+            "question": "Avez-vous réalisé une analyse des données ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Régression Logistique": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "RNN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "GPT": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "VAE": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Stable Diffusion": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "DALL-E": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Midjourney": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM Audio": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "WaveNet": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "IA vocale générative": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "IA de restauration vocale": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "k-NN Vidéo": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN Vidéo": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "NeRF": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Style Transfer": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
             "question": "Quantité de données à traiter ?",
             "options": [
                 "faible",
@@ -619,7 +730,7 @@
                 {
                     "GPT": [
                         "0",
-                        "20"
+                        "10"
                     ]
                 },
                 {
@@ -845,8 +956,8 @@
                 {
                     "GPT": [
                         "0",
-                        "inf_neg",
-                        "inf_neg"
+                        "10",
+                        "0"
                     ]
                 },
                 {

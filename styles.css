@@ -1,12 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f4f4f9;
     color: #333;
+}
+
+.fixed-header {
+    background-color: #f1f1f1;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .container {
@@ -15,7 +22,7 @@ body {
     padding: 20px 40px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    max-width: 600px;
     width: 100%;
     max-height: 80vh;
     margin-right: 20px;
@@ -55,15 +62,23 @@ body {
     overflow-y: auto;
 }
 
+.containermain {
+    text-align: center;
+    overflow-y: auto;
+    width: 100%;
+}
+
+
 .containerv {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    width: 100%;
     max-width: 900px;
     margin: 0 auto;
     gap: 0px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 .result_list_class {

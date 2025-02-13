@@ -276,7 +276,7 @@
             ]
         },
         {
-            "question": "Quantité de données à traiter*",
+            "question": "Quantité de données à traiter",
             "options": [
                 "Faible",
                 "Élevée"
@@ -478,6 +478,213 @@
                     "Generative Adversarial Networks": [
                         "0",
                         "20"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Existence ou non de données d'entraînement ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Autoencoders": [
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Deep Embedded Clustering": [
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Deep Clustering Network": [
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "SpectralNet": [
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Self-Supervised Learning Approaches": [
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Generative Adversarial Networks": [
+                        "20",
+                        "inf_neg"
                     ]
                 }
             ]
@@ -1104,6 +1311,213 @@
             ]
         },
         {
+            "question": "Avez-vous réalisé une analyse des données ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "K-Means": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Medoids": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "HDBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Hierarchical Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Gaussian Mixture Model": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Mean Shift": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Affinity Propagation": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "BIRCH": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "OPTICS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Mean Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Self-Organizing Maps": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Clustering Using Representatives": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Subspace Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Agglomerative Subspace Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Spectral Clustering avec Kernel Trick": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "K-Prototypes": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy C-Varieties (FCV)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Denclue (Density-Based Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Relational Clustering (COBWEB)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Neural Gas": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Chamelon Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Fuzzy Adaptive Resonance Theory": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "SNN (Shared Nearest Neighbor Clustering)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CLARANS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Autoencoders": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Deep Embedded Clustering": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Deep Clustering Network": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "SpectralNet": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Self-Supervised Learning Approaches": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Generative Adversarial Networks": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
             "question": "Données complexes (images / vidéo)",
             "options": [
                 "Oui",
@@ -1518,7 +1932,7 @@
             ]
         },
         {
-            "question": "Nécessité d'un forte robustesse au données bruitées (en contrepartie, plus de complexité)",
+            "question": "Nécessité d'une forte robustesse au données bruitées",
             "options": [
                 "Oui",
                 "Non"
@@ -1725,7 +2139,7 @@
             ]
         },
         {
-            "question": "Des informations dans les données sont manquantes ?***",
+            "question": "Des informations dans les données sont manquantes ?",
             "options": [
                 "Oui",
                 "Non"
@@ -1932,7 +2346,7 @@
             ]
         },
         {
-            "question": "Peu de valeurs abérrantes ?**",
+            "question": "Peu de valeurs abérrantes ?",
             "options": [
                 "Oui",
                 "Non"

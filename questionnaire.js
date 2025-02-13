@@ -13,11 +13,11 @@ function chooseUseCase() {
     questionElement.textContent = 'Quel cas d\'usage souhaitez-vous choisir ?';
 
     const useCases = {
-        "Clustering": "clustering.json",
-        "Classification": "classification.json",
-        "Détection d'Anomalie": "detection_anomalies.json",
-        "Prédiction et Régression": "prediction.json",
-        "Création / Modification de contenu": "creation_modification_contenu.json"
+        "Clustering": "json/clustering.json",
+        "Classification": "json/classification.json",
+        "Détection d'Anomalie": "json/detection_anomalies.json",
+        "Prédiction et Régression": "json/prediction.json",
+        "Création / Modification de contenu": "json/creation_modification_contenu.json"
     };
 
     optionsContainer.innerHTML = ''; // Effacer les anciennes options
@@ -62,61 +62,63 @@ function initializeScores(data) {
     });
 }
 
-// Fonction pour vérifier si une question est viable
 function isViableQuestion(question, aliveModels) {
     const scores = question.scores;
 
-    // Pour chaque option, vérifier si elle met tous les modèles vivants à -Infinity
+    // Vérifie chaque option de la question
     for (let i = 0; i < question.options.length; i++) {
-        let viable = false;
+        let allDead = true;  // Suppose que tous les algorithmes sont à inf_neg pour cette option
 
         for (let alg of aliveModels) {
-            const currentScore = scores.find(scoreObj => alg in scoreObj)[alg][i];
-            if (currentScore !== "inf_neg") {
-                viable = true;
-                break; // Cette option ne tue pas tous les algorithmes vivants
+            const scoreObj = scores.find(scoreObj => alg in scoreObj);
+            const currentScore = scoreObj[alg][i];
+            if (currentScore !== "inf_neg") {  // Si au moins un algorithme n'est pas à inf_neg
+                allDead = false;
+                break;
             }
         }
 
-        if (viable) return true; // La question a au moins une option viable
+        if (allDead) return false;  // Si une option tue tous les algorithmes vivants, on retourne false
     }
 
-    return false; // Toutes les options mettent les modèles vivants à -Infinity
+    return true;  // Toutes les options ont au moins un modèle vivant
 }
+
 
 // Fonction pour poser les questions
 function askQuestions(idx) {
-    if (idx >= jsonData.questions.length) {
-        showFinalScores(scoresDict); // Afficher les scores finaux
-        return;
-    }
+    if (algo){
+        if (idx >= jsonData.questions.length) {
+            showFinalScores(scoresDict); // Afficher les scores finaux
+            return;
+        }
 
-    const aliveModels = stillAlive();
-    console.log(aliveModels);
-    const question = jsonData.questions[idx];
+        const aliveModels = stillAlive();
+        const question = jsonData.questions[idx];
 
 
-    if (!isViableQuestion(question, aliveModels)) {
-        askQuestions(idx + 1);
-        return;
-    }
-
-    const questionElement = document.getElementById('question');
-    const optionsContainer = document.getElementById('options');
-
-    questionElement.textContent = question.question;
-    optionsContainer.innerHTML = ''; // Effacer les anciennes options
-
-    question.options.forEach((option, i) => {
-        const button = document.createElement('button');
-        button.textContent = option;
-        button.className = 'option-button';
-        button.addEventListener('click', () => {
-            handleAnswer(i, question.scores, idx);
+        if (!isViableQuestion(question, aliveModels)) {
             askQuestions(idx + 1);
+            return;
+        }
+
+        const questionElement = document.getElementById('question');
+        const optionsContainer = document.getElementById('options');
+
+        questionElement.textContent = question.question;
+        optionsContainer.innerHTML = ''; // Effacer les anciennes options
+
+        question.options.forEach((option, i) => {
+            const button = document.createElement('button');
+            button.textContent = option;
+            button.className = 'option-button';
+            button.addEventListener('click', () => {
+                handleAnswer(i, question.scores, idx);
+                askQuestions(idx + 1);
+            });
+            optionsContainer.appendChild(button);
         });
-        optionsContainer.appendChild(button);
-    });
+    }
 }
 
 // Retourne la liste des modèles encore disponibles
@@ -133,8 +135,16 @@ function stillAlive() {
 
 // Gérer la réponse de l'utilisateur et mettre à jour les scores
 function handleAnswer(selectedOptionIndex, scores, currentQuestionIndex) {
+    if (!algo){
+        return;
+    }
+
     const question = jsonData.questions[currentQuestionIndex];
     const chosenOption = question.options[selectedOptionIndex];
+
+    if ((question["question"] == "Avez-vous réalisé une analyse des données ?") && (chosenOption == "Non")) {
+        showFinalScores(scoresDict);
+    }
 
     updateHistory(question.question, chosenOption);
     scores.forEach((scoreObj) => {

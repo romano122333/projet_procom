@@ -166,385 +166,34 @@
             ]
         },
         {
-            "question": "Quelle est la taille des données ?",
+            "question": "La vitesse d'execution doit être",
             "options": [
-                "Grande",
-                "Moyenne",
-                "Faible"
+                "Élevée",
+                "Peu importe"
             ],
             "scores": [
                 {
                     "Isolation Forest": [
-                        "10",
                         "inf_neg",
-                        "inf_neg"
+                        "0"
                     ]
                 },
                 {
                     "One-Class SVM": [
-                        "20",
-                        "0",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Local Outlier Factor (LOF)": [
-                        "20",
-                        "20",
-                        "10"
-                    ]
-                },
-                {
-                    "DBSCAN": [
-                        "inf_neg",
-                        "inf_neg",
-                        "20"
-                    ]
-                },
-                {
-                    "PCA": [
                         "10",
-                        "inf_neg",
-                        "0"
-                    ]
-                },
-                {
-                    "Autoencoders": [
-                        "0",
-                        "20",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Variational Autoencoders (VAE)": [
-                        "10",
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
-                        "inf_neg",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "Robust Random Cut Forest (RRCF)": [
-                        "20",
-                        "0",
-                        "20"
-                    ]
-                },
-                {
-                    "HBOS": [
-                        "0",
-                        "inf_neg",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "ARIMA": [
-                        "20",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "LSTM Autoencoder": [
-                        "10",
-                        "inf_neg",
-                        "0"
-                    ]
-                },
-                {
-                    "Mahalanobis Distance": [
-                        "0",
-                        "inf_neg",
-                        "20"
-                    ]
-                },
-                {
-                    "XGBoost": [
-                        "10",
-                        "0",
-                        "20"
-                    ]
-                },
-                {
-                    "LightGBM": [
-                        "0",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "CatBoost": [
-                        "20",
-                        "20",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Hidden Markov Models (HMM)": [
-                        "20",
-                        "10",
-                        "0"
-                    ]
-                }
-            ]
-        },
-        {
-            "question": "Faut-il des labels pour entraîner l’algorithme ?",
-            "options": [
-                "Oui",
-                "Non"
-            ],
-            "scores": [
-                {
-                    "Isolation Forest": [
-                        "0",
-                        "10"
-                    ]
-                },
-                {
-                    "One-Class SVM": [
-                        "0",
                         "0"
                     ]
                 },
                 {
                     "Local Outlier Factor (LOF)": [
                         "10",
-                        "10"
-                    ]
-                },
-                {
-                    "DBSCAN": [
-                        "0",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "PCA": [
-                        "20",
-                        "20"
-                    ]
-                },
-                {
-                    "Autoencoders": [
-                        "20",
-                        "10"
-                    ]
-                },
-                {
-                    "Variational Autoencoders (VAE)": [
-                        "0",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
-                        "0",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Robust Random Cut Forest (RRCF)": [
-                        "20",
-                        "10"
-                    ]
-                },
-                {
-                    "HBOS": [
-                        "20",
-                        "20"
-                    ]
-                },
-                {
-                    "ARIMA": [
-                        "20",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "LSTM Autoencoder": [
-                        "20",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Mahalanobis Distance": [
-                        "inf_neg",
-                        "10"
-                    ]
-                },
-                {
-                    "XGBoost": [
-                        "0",
-                        "10"
-                    ]
-                },
-                {
-                    "LightGBM": [
-                        "10",
-                        "10"
-                    ]
-                },
-                {
-                    "CatBoost": [
-                        "0",
-                        "20"
-                    ]
-                },
-                {
-                    "Hidden Markov Models (HMM)": [
-                        "20",
                         "0"
-                    ]
-                }
-            ]
-        },
-        {
-            "question": "Vos données contiennent-elles un très grand nombre de variables (colonnes) ?",
-            "options": [
-                "Oui",
-                "Non"
-            ],
-            "scores": [
-                {
-                    "Isolation Forest": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "One-Class SVM": [
-                        "10",
-                        "10"
-                    ]
-                },
-                {
-                    "Local Outlier Factor (LOF)": [
-                        "inf_neg",
-                        "20"
-                    ]
-                },
-                {
-                    "DBSCAN": [
-                        "20",
-                        "20"
-                    ]
-                },
-                {
-                    "PCA": [
-                        "20",
-                        "10"
-                    ]
-                },
-                {
-                    "Autoencoders": [
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "Variational Autoencoders (VAE)": [
-                        "0",
-                        "10"
-                    ]
-                },
-                {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
-                        "10",
-                        "10"
-                    ]
-                },
-                {
-                    "Robust Random Cut Forest (RRCF)": [
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "HBOS": [
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "ARIMA": [
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "LSTM Autoencoder": [
-                        "0",
-                        "20"
-                    ]
-                },
-                {
-                    "Mahalanobis Distance": [
-                        "20",
-                        "10"
-                    ]
-                },
-                {
-                    "XGBoost": [
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "LightGBM": [
-                        "10",
-                        "10"
-                    ]
-                },
-                {
-                    "CatBoost": [
-                        "20",
-                        "20"
-                    ]
-                },
-                {
-                    "Hidden Markov Models (HMM)": [
-                        "inf_neg",
-                        "20"
-                    ]
-                }
-            ]
-        },
-        {
-            "question": "L’algorithme doit-il être rapide en exécution ?",
-            "options": [
-                "Oui",
-                "Non"
-            ],
-            "scores": [
-                {
-                    "Isolation Forest": [
-                        "inf_neg",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "One-Class SVM": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "Local Outlier Factor (LOF)": [
-                        "10",
-                        "10"
                     ]
                 },
                 {
                     "DBSCAN": [
                         "inf_neg",
-                        "20"
+                        "0"
                     ]
                 },
                 {
@@ -556,25 +205,25 @@
                 {
                     "Autoencoders": [
                         "10",
-                        "10"
+                        "0"
                     ]
                 },
                 {
                     "Variational Autoencoders (VAE)": [
                         "20",
-                        "inf_neg"
+                        "0"
                     ]
                 },
                 {
                     "GAN-Based (AnoGAN, FenceGAN)": [
                         "0",
-                        "20"
+                        "0"
                     ]
                 },
                 {
                     "Robust Random Cut Forest (RRCF)": [
                         "0",
-                        "inf_neg"
+                        "0"
                     ]
                 },
                 {
@@ -586,7 +235,7 @@
                 {
                     "ARIMA": [
                         "0",
-                        "inf_neg"
+                        "0"
                     ]
                 },
                 {
@@ -604,13 +253,13 @@
                 {
                     "XGBoost": [
                         "inf_neg",
-                        "20"
+                        "0"
                     ]
                 },
                 {
                     "LightGBM": [
                         "inf_neg",
-                        "20"
+                        "0"
                     ]
                 },
                 {
@@ -623,117 +272,6 @@
                     "Hidden Markov Models (HMM)": [
                         "20",
                         "0"
-                    ]
-                }
-            ]
-        },
-        {
-            "question": "Les données sont-elles bruitées ?",
-            "options": [
-                "Oui",
-                "Non"
-            ],
-            "scores": [
-                {
-                    "Isolation Forest": [
-                        "0",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "One-Class SVM": [
-                        "10",
-                        "10"
-                    ]
-                },
-                {
-                    "Local Outlier Factor (LOF)": [
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "DBSCAN": [
-                        "10",
-                        "20"
-                    ]
-                },
-                {
-                    "PCA": [
-                        "20",
-                        "20"
-                    ]
-                },
-                {
-                    "Autoencoders": [
-                        "inf_neg",
-                        "20"
-                    ]
-                },
-                {
-                    "Variational Autoencoders (VAE)": [
-                        "20",
-                        "10"
-                    ]
-                },
-                {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "Robust Random Cut Forest (RRCF)": [
-                        "inf_neg",
-                        "20"
-                    ]
-                },
-                {
-                    "HBOS": [
-                        "10",
-                        "20"
-                    ]
-                },
-                {
-                    "ARIMA": [
-                        "0",
-                        "10"
-                    ]
-                },
-                {
-                    "LSTM Autoencoder": [
-                        "20",
-                        "10"
-                    ]
-                },
-                {
-                    "Mahalanobis Distance": [
-                        "20",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "XGBoost": [
-                        "10",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "LightGBM": [
-                        "20",
-                        "inf_neg"
-                    ]
-                },
-                {
-                    "CatBoost": [
-                        "inf_neg",
-                        "20"
-                    ]
-                },
-                {
-                    "Hidden Markov Models (HMM)": [
-                        "inf_neg",
-                        "inf_neg"
                     ]
                 }
             ]
@@ -979,6 +517,597 @@
             ]
         },
         {
+            "question": "Une valeur considérée comme normale peut-elle devenir anormale selon le contexte ?",
+            "options": [
+                "Oui",
+                "Non",
+                "Je ne sais pas"
+            ],
+            "scores": [
+                {
+                    "Isolation Forest": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "One-Class SVM": [
+                        "10",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Local Outlier Factor (LOF)": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "PCA": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Autoencoders": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Variational Autoencoders (VAE)": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN-Based (AnoGAN, FenceGAN)": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Robust Random Cut Forest (RRCF)": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "HBOS": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "ARIMA": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM Autoencoder": [
+                        "20",
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Mahalanobis Distance": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "20",
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CatBoost": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Hidden Markov Models (HMM)": [
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Avez-vous réalisé une analyse des données ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Isolation Forest": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "One-Class SVM": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Local Outlier Factor (LOF)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "PCA": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Autoencoders": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Variational Autoencoders (VAE)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "GAN-Based (AnoGAN, FenceGAN)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Robust Random Cut Forest (RRCF)": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "HBOS": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "ARIMA": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM Autoencoder": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Mahalanobis Distance": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "CatBoost": [
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "Hidden Markov Models (HMM)": [
+                        "0",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la taille des données ?",
+            "options": [
+                "Grande",
+                "Moyenne",
+                "Faible"
+            ],
+            "scores": [
+                {
+                    "Isolation Forest": [
+                        "10",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "One-Class SVM": [
+                        "20",
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Local Outlier Factor (LOF)": [
+                        "20",
+                        "20",
+                        "10"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "inf_neg",
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "PCA": [
+                        "10",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Autoencoders": [
+                        "0",
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Variational Autoencoders (VAE)": [
+                        "10",
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "GAN-Based (AnoGAN, FenceGAN)": [
+                        "inf_neg",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Robust Random Cut Forest (RRCF)": [
+                        "20",
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "HBOS": [
+                        "0",
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "ARIMA": [
+                        "20",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM Autoencoder": [
+                        "10",
+                        "inf_neg",
+                        "0"
+                    ]
+                },
+                {
+                    "Mahalanobis Distance": [
+                        "0",
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "10",
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "0",
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "CatBoost": [
+                        "20",
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "Hidden Markov Models (HMM)": [
+                        "20",
+                        "10",
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Les données sont-elles de haute dimension ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Isolation Forest": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "One-Class SVM": [
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "Local Outlier Factor (LOF)": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "20",
+                        "20"
+                    ]
+                },
+                {
+                    "PCA": [
+                        "20",
+                        "10"
+                    ]
+                },
+                {
+                    "Autoencoders": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "Variational Autoencoders (VAE)": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "GAN-Based (AnoGAN, FenceGAN)": [
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "Robust Random Cut Forest (RRCF)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "HBOS": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "ARIMA": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "LSTM Autoencoder": [
+                        "0",
+                        "20"
+                    ]
+                },
+                {
+                    "Mahalanobis Distance": [
+                        "20",
+                        "10"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "20",
+                        "0"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "CatBoost": [
+                        "20",
+                        "20"
+                    ]
+                },
+                {
+                    "Hidden Markov Models (HMM)": [
+                        "inf_neg",
+                        "20"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Les données sont-elles bruitées ?",
+            "options": [
+                "Oui",
+                "Non"
+            ],
+            "scores": [
+                {
+                    "Isolation Forest": [
+                        "0",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "One-Class SVM": [
+                        "10",
+                        "10"
+                    ]
+                },
+                {
+                    "Local Outlier Factor (LOF)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "DBSCAN": [
+                        "10",
+                        "20"
+                    ]
+                },
+                {
+                    "PCA": [
+                        "20",
+                        "20"
+                    ]
+                },
+                {
+                    "Autoencoders": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Variational Autoencoders (VAE)": [
+                        "20",
+                        "10"
+                    ]
+                },
+                {
+                    "GAN-Based (AnoGAN, FenceGAN)": [
+                        "10",
+                        "0"
+                    ]
+                },
+                {
+                    "Robust Random Cut Forest (RRCF)": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "HBOS": [
+                        "10",
+                        "20"
+                    ]
+                },
+                {
+                    "ARIMA": [
+                        "0",
+                        "10"
+                    ]
+                },
+                {
+                    "LSTM Autoencoder": [
+                        "20",
+                        "10"
+                    ]
+                },
+                {
+                    "Mahalanobis Distance": [
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "XGBoost": [
+                        "10",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "LightGBM": [
+                        "20",
+                        "inf_neg"
+                    ]
+                },
+                {
+                    "CatBoost": [
+                        "inf_neg",
+                        "20"
+                    ]
+                },
+                {
+                    "Hidden Markov Models (HMM)": [
+                        "inf_neg",
+                        "inf_neg"
+                    ]
+                }
+            ]
+        },
+        {
             "question": "Les données sont-elles temporelles ?",
             "options": [
                 "Oui",
@@ -1194,135 +1323,6 @@
                 },
                 {
                     "Hidden Markov Models (HMM)": [
-                        "0",
-                        "0"
-                    ]
-                }
-            ]
-        },
-        {
-            "question": "Une valeur considérée comme normale peut-elle devenir anormale selon le contexte ?",
-            "options": [
-                "Oui",
-                "Non",
-                "Je ne sais pas"
-            ],
-            "scores": [
-                {
-                    "Isolation Forest": [
-                        "10",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "One-Class SVM": [
-                        "10",
-                        "10",
-                        "0"
-                    ]
-                },
-                {
-                    "Local Outlier Factor (LOF)": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "DBSCAN": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "PCA": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Autoencoders": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Variational Autoencoders (VAE)": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Robust Random Cut Forest (RRCF)": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "HBOS": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "ARIMA": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "LSTM Autoencoder": [
-                        "20",
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "Mahalanobis Distance": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "XGBoost": [
-                        "20",
-                        "20",
-                        "0"
-                    ]
-                },
-                {
-                    "LightGBM": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "CatBoost": [
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                {
-                    "Hidden Markov Models (HMM)": [
-                        "0",
                         "0",
                         "0"
                     ]
