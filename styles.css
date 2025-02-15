@@ -13,47 +13,33 @@ body {
     border-bottom: 1px solid #ddd;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
     margin-bottom: 20px;
+}
+
+.container, .container2 {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+    margin: 0 20px;
 }
 
 .container {
     text-align: center;
-    background-color: #fff;
-    padding: 20px 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 600px;
-    width: 100%;
     max-height: 80vh;
-    margin-right: 20px;
-    margin-left: 20px;
-    overflow-y: auto;
-    box-sizing: border-box;
 }
 
 .container2 {
     text-align: left;
-    background-color: #fff;
-    padding: 20px 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    width: 100%;
-    overflow-y: auto;
     max-height: 70vh;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-}
-
-.fixed-header {
-    background-color: #f1f1f1;
-    padding: 20px 40px;
-    border-bottom: 1px solid #ddd;
-    flex-shrink: 0;
 }
 
 .scrollable-content {
@@ -68,31 +54,28 @@ body {
     width: 100%;
 }
 
-
 .containerv {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     width: 100%;
     max-width: 900px;
-    margin: 0 auto;
-    gap: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px; 
+    margin: 20px auto;
+    gap: 0;
 }
 
 .result_list_class {
     text-align: left;
     width: 100%;
+    overflow-y: auto;
 }
-
 
 .question {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 
-.options button {
+.options button, .relancer button {
     display: block;
     width: 100%;
     margin: 10px 0;
@@ -106,7 +89,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.options button:hover {
+.options button:hover, .relancer button:hover {
     background-color: #0056b3;
 }
 
@@ -117,25 +100,6 @@ body {
 .history-item p {
     margin: 5px 0;
 }
-
-.relancer button {
-    display: block;
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.relancer button:hover {
-    background-color: #0056b3;
-}
-
 
 .image {
     width: 10px;
@@ -153,9 +117,9 @@ body {
 }
 
 #permanent-restart-button:hover {
-    background-color: #45a049; /* Changement de couleur au survol */
+    background-color: #45a049;
 }
 
 #permanent-restart-button:active {
-    transform: scale(0.95); /* Légère réduction de taille au clic */
+    transform: scale(0.95);
 }
