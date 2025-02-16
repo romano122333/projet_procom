@@ -8,103 +8,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
@@ -116,67 +116,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
@@ -191,103 +191,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "20",
                         "0"
                     ]
@@ -299,67 +299,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "20",
                         "0"
                     ]
@@ -374,103 +374,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
@@ -482,67 +482,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "0",
                         "0"
                     ]
@@ -557,103 +557,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
@@ -665,67 +665,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "20",
                         "0"
                     ]
@@ -740,103 +740,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "0",
                         "0"
                     ]
@@ -848,67 +848,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "0",
                         "0"
                     ]
@@ -923,103 +923,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
@@ -1031,67 +1031,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "0",
                         "0"
                     ]
@@ -1106,103 +1106,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "inf_neg",
                         "10"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "inf_neg",
                         "20"
                     ]
@@ -1214,67 +1214,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "inf_neg",
                         "10"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "inf_neg",
                         "10"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "inf_neg",
                         "10"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "inf_neg",
                         "10"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "inf_neg",
                         "10"
                     ]
@@ -1289,103 +1289,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "0",
                         "0"
                     ]
@@ -1397,67 +1397,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
@@ -1472,103 +1472,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "inf_neg",
                         "inf_neg"
                     ]
@@ -1580,67 +1580,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "0",
                         "0"
                     ]
@@ -1655,103 +1655,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "10",
                         "0"
                     ]
@@ -1763,67 +1763,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "10",
                         "0"
                     ]
@@ -1838,103 +1838,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "10",
                         "0"
                     ]
@@ -1946,67 +1946,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "10",
                         "0"
                     ]
@@ -2021,103 +2021,103 @@
             ],
             "scores": [
                 {
-                    "Arbres de Décision": [
+                    "Arbres de Décision (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "CART": [
+                    "CART (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Random Forest": [
+                    "Random Forest (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Model Trees (LMT)": [
+                    "Logistic Model Trees (LMT) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Gradient Boosting Machines": [
+                    "Gradient Boosting Machines (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "AdaBoost": [
+                    "AdaBoost (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hist Gradient Boosting": [
+                    "Hist Gradient Boosting (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CutBoost": [
+                    "CutBoost (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CatGBM": [
+                    "CatGBM (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Logistic Regression": [
+                    "Logistic Regression (Simple)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Perceptron": [
+                    "Perceptron (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Quadratic Discriminant Analysis": [
+                    "Quadratic Discriminant Analysis (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Linear Discriminant Analysis (LDA)": [
+                    "Linear Discriminant Analysis (LDA) (Simple)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Multilayer Perceptron (MLP)": [
+                    "Multilayer Perceptron (MLP) (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Radial Basis Function (RBF) Networks": [
+                    "Radial Basis Function (RBF) Networks (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
@@ -2129,67 +2129,67 @@
                     ]
                 },
                 {
-                    "Réseaux de Neurones Convolutifs": [
+                    "Réseaux de Neurones Convolutifs (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Naives Bayes": [
+                    "Naives Bayes (Simple)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Bayesian Networks": [
+                    "Bayesian Networks (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "k-Nearest Neighbors": [
+                    "k-Nearest Neighbors (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Nearest Centroid Classifier": [
+                    "Nearest Centroid Classifier (Simple)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Support Vector Machines (SVM)": [
+                    "Support Vector Machines (SVM) (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Stacking": [
+                    "Stacking (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Bagging": [
+                    "Bagging (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fisher's Linear Discriminant": [
+                    "Fisher's Linear Discriminant (Simple)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Extreme Learning Machines (ELM)": [
+                    "Extreme Learning Machines (ELM) (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Passive-Aggressive Classifiers": [
+                    "Passive-Aggressive Classifiers (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]

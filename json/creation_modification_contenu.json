@@ -10,7 +10,7 @@
             ],
             "scores": [
                 {
-                    "Régression Logistique": [
+                    "Régression Logistique (Simple)": [
                         "0",
                         "inf_neg",
                         "inf_neg",
@@ -18,7 +18,7 @@
                     ]
                 },
                 {
-                    "RNN": [
+                    "RNN (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "inf_neg",
@@ -26,7 +26,7 @@
                     ]
                 },
                 {
-                    "LSTM": [
+                    "LSTM (Complexe)": [
                         "0",
                         "inf_neg",
                         "inf_neg",
@@ -34,7 +34,7 @@
                     ]
                 },
                 {
-                    "GPT": [
+                    "GPT (Complexe)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -42,7 +42,7 @@
                     ]
                 },
                 {
-                    "GAN": [
+                    "GAN (Complexe)": [
                         "inf_neg",
                         "0",
                         "0",
@@ -50,7 +50,7 @@
                     ]
                 },
                 {
-                    "VAE": [
+                    "VAE (Complexe)": [
                         "inf_neg",
                         "0",
                         "0",
@@ -58,7 +58,7 @@
                     ]
                 },
                 {
-                    "Stable Diffusion": [
+                    "Stable Diffusion (Complexe)": [
                         "inf_neg",
                         "0",
                         "inf_neg",
@@ -66,7 +66,7 @@
                     ]
                 },
                 {
-                    "DALL-E": [
+                    "DALL-E (Complexe)": [
                         "inf_neg",
                         "0",
                         "inf_neg",
@@ -74,7 +74,7 @@
                     ]
                 },
                 {
-                    "Midjourney": [
+                    "Midjourney (Complexe)": [
                         "inf_neg",
                         "0",
                         "inf_neg",
@@ -82,7 +82,7 @@
                     ]
                 },
                 {
-                    "LSTM Audio": [
+                    "LSTM Audio (Complexe)": [
                         "inf_neg",
                         "inf_neg",
                         "0",
@@ -90,7 +90,7 @@
                     ]
                 },
                 {
-                    "WaveNet": [
+                    "WaveNet (Complexe)": [
                         "inf_neg",
                         "inf_neg",
                         "0",
@@ -98,7 +98,7 @@
                     ]
                 },
                 {
-                    "IA vocale générative": [
+                    "IA vocale générative (Complexe)": [
                         "inf_neg",
                         "inf_neg",
                         "0",
@@ -106,7 +106,7 @@
                     ]
                 },
                 {
-                    "IA de restauration vocale": [
+                    "IA de restauration vocale (Complexe)": [
                         "inf_neg",
                         "inf_neg",
                         "0",
@@ -114,7 +114,7 @@
                     ]
                 },
                 {
-                    "k-NN Vidéo": [
+                    "k-NN Vidéo (Complexe)": [
                         "inf_neg",
                         "inf_neg",
                         "inf_neg",
@@ -122,7 +122,7 @@
                     ]
                 },
                 {
-                    "GAN Vidéo": [
+                    "GAN Vidéo (Complexe)": [
                         "inf_neg",
                         "inf_neg",
                         "inf_neg",
@@ -130,7 +130,7 @@
                     ]
                 },
                 {
-                    "NeRF": [
+                    "NeRF (Complexe)": [
                         "inf_neg",
                         "inf_neg",
                         "inf_neg",
@@ -138,7 +138,7 @@
                     ]
                 },
                 {
-                    "Style Transfer": [
+                    "Style Transfer (Complexe)": [
                         "inf_neg",
                         "inf_neg",
                         "inf_neg",
@@ -155,103 +155,103 @@
             ],
             "scores": [
                 {
-                    "Régression Logistique": [
+                    "Régression Logistique (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "RNN": [
+                    "RNN (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "LSTM": [
+                    "LSTM (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "GPT": [
+                    "GPT (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "GAN": [
+                    "GAN (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "VAE": [
+                    "VAE (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Stable Diffusion": [
+                    "Stable Diffusion (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "DALL-E": [
+                    "DALL-E (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Midjourney": [
+                    "Midjourney (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LSTM Audio": [
+                    "LSTM Audio (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "WaveNet": [
+                    "WaveNet (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "IA vocale générative": [
+                    "IA vocale générative (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "IA de restauration vocale": [
+                    "IA de restauration vocale (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "k-NN Vidéo": [
+                    "k-NN Vidéo (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "GAN Vidéo": [
+                    "GAN Vidéo (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "NeRF": [
+                    "NeRF (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Style Transfer": [
+                    "Style Transfer (Complexe)": [
                         "0",
                         "0"
                     ]
@@ -266,103 +266,103 @@
             ],
             "scores": [
                 {
-                    "Régression Logistique": [
+                    "Régression Logistique (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "RNN": [
+                    "RNN (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "LSTM": [
+                    "LSTM (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "GPT": [
+                    "GPT (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "GAN": [
+                    "GAN (Complexe)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "VAE": [
+                    "VAE (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Stable Diffusion": [
+                    "Stable Diffusion (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "DALL-E": [
+                    "DALL-E (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Midjourney": [
+                    "Midjourney (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LSTM Audio": [
+                    "LSTM Audio (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "WaveNet": [
+                    "WaveNet (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "IA vocale générative": [
+                    "IA vocale générative (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "IA de restauration vocale": [
+                    "IA de restauration vocale (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "k-NN Vidéo": [
+                    "k-NN Vidéo (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "GAN Vidéo": [
+                    "GAN Vidéo (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "NeRF": [
+                    "NeRF (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Style Transfer": [
+                    "Style Transfer (Complexe)": [
                         "0",
                         "10"
                     ]
@@ -377,103 +377,103 @@
             ],
             "scores": [
                 {
-                    "Régression Logistique": [
+                    "Régression Logistique (Simple)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "RNN": [
+                    "RNN (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "LSTM": [
+                    "LSTM (Complexe)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "GPT": [
+                    "GPT (Complexe)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "GAN": [
+                    "GAN (Complexe)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "VAE": [
+                    "VAE (Complexe)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Stable Diffusion": [
+                    "Stable Diffusion (Complexe)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "DALL-E": [
+                    "DALL-E (Complexe)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Midjourney": [
+                    "Midjourney (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "LSTM Audio": [
+                    "LSTM Audio (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "WaveNet": [
+                    "WaveNet (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "IA vocale générative": [
+                    "IA vocale générative (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "IA de restauration vocale": [
+                    "IA de restauration vocale (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "k-NN Vidéo": [
+                    "k-NN Vidéo (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "GAN Vidéo": [
+                    "GAN Vidéo (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "NeRF": [
+                    "NeRF (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Style Transfer": [
+                    "Style Transfer (Complexe)": [
                         "10",
                         "0"
                     ]
@@ -488,103 +488,103 @@
             ],
             "scores": [
                 {
-                    "Régression Logistique": [
+                    "Régression Logistique (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "RNN": [
+                    "RNN (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "LSTM": [
+                    "LSTM (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "GPT": [
+                    "GPT (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "GAN": [
+                    "GAN (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "VAE": [
+                    "VAE (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Stable Diffusion": [
+                    "Stable Diffusion (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "DALL-E": [
+                    "DALL-E (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Midjourney": [
+                    "Midjourney (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "LSTM Audio": [
+                    "LSTM Audio (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "WaveNet": [
+                    "WaveNet (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "IA vocale générative": [
+                    "IA vocale générative (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "IA de restauration vocale": [
+                    "IA de restauration vocale (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "k-NN Vidéo": [
+                    "k-NN Vidéo (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "GAN Vidéo": [
+                    "GAN Vidéo (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "NeRF": [
+                    "NeRF (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Style Transfer": [
+                    "Style Transfer (Complexe)": [
                         "0",
                         "10"
                     ]
@@ -599,103 +599,103 @@
             ],
             "scores": [
                 {
-                    "Régression Logistique": [
+                    "Régression Logistique (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "RNN": [
+                    "RNN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LSTM": [
+                    "LSTM (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "GPT": [
+                    "GPT (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "GAN": [
+                    "GAN (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "VAE": [
+                    "VAE (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Stable Diffusion": [
+                    "Stable Diffusion (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "DALL-E": [
+                    "DALL-E (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Midjourney": [
+                    "Midjourney (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LSTM Audio": [
+                    "LSTM Audio (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "WaveNet": [
+                    "WaveNet (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "IA vocale générative": [
+                    "IA vocale générative (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "IA de restauration vocale": [
+                    "IA de restauration vocale (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "k-NN Vidéo": [
+                    "k-NN Vidéo (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "GAN Vidéo": [
+                    "GAN Vidéo (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "NeRF": [
+                    "NeRF (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Style Transfer": [
+                    "Style Transfer (Complexe)": [
                         "0",
                         "0"
                     ]
@@ -710,103 +710,103 @@
             ],
             "scores": [
                 {
-                    "Régression Logistique": [
+                    "Régression Logistique (Simple)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "RNN": [
+                    "RNN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LSTM": [
+                    "LSTM (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "GPT": [
+                    "GPT (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "GAN": [
+                    "GAN (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "VAE": [
+                    "VAE (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Stable Diffusion": [
+                    "Stable Diffusion (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "DALL-E": [
+                    "DALL-E (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Midjourney": [
+                    "Midjourney (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "LSTM Audio": [
+                    "LSTM Audio (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "WaveNet": [
+                    "WaveNet (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "IA vocale générative": [
+                    "IA vocale générative (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "IA de restauration vocale": [
+                    "IA de restauration vocale (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "k-NN Vidéo": [
+                    "k-NN Vidéo (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "GAN Vidéo": [
+                    "GAN Vidéo (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "NeRF": [
+                    "NeRF (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Style Transfer": [
+                    "Style Transfer (Complexe)": [
                         "0",
                         "20"
                     ]
@@ -821,103 +821,103 @@
             ],
             "scores": [
                 {
-                    "Régression Logistique": [
+                    "Régression Logistique (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "RNN": [
+                    "RNN (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "LSTM": [
+                    "LSTM (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "GPT": [
+                    "GPT (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "GAN": [
+                    "GAN (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "VAE": [
+                    "VAE (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Stable Diffusion": [
+                    "Stable Diffusion (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "DALL-E": [
+                    "DALL-E (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Midjourney": [
+                    "Midjourney (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "LSTM Audio": [
+                    "LSTM Audio (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "WaveNet": [
+                    "WaveNet (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "IA vocale générative": [
+                    "IA vocale générative (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "IA de restauration vocale": [
+                    "IA de restauration vocale (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "k-NN Vidéo": [
+                    "k-NN Vidéo (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "GAN Vidéo": [
+                    "GAN Vidéo (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "NeRF": [
+                    "NeRF (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Style Transfer": [
+                    "Style Transfer (Complexe)": [
                         "10",
                         "0"
                     ]
@@ -933,119 +933,119 @@
             ],
             "scores": [
                 {
-                    "Régression Logistique": [
+                    "Régression Logistique (Simple)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "RNN": [
+                    "RNN (Intermédiaire)": [
                         "0",
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "LSTM": [
+                    "LSTM (Complexe)": [
                         "0",
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "GPT": [
+                    "GPT (Complexe)": [
                         "0",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "GAN": [
+                    "GAN (Complexe)": [
                         "10",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "VAE": [
+                    "VAE (Complexe)": [
                         "10",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Stable Diffusion": [
+                    "Stable Diffusion (Complexe)": [
                         "0",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "DALL-E": [
+                    "DALL-E (Complexe)": [
                         "0",
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Midjourney": [
+                    "Midjourney (Complexe)": [
                         "0",
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "LSTM Audio": [
+                    "LSTM Audio (Complexe)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "WaveNet": [
+                    "WaveNet (Complexe)": [
                         "10",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "IA vocale générative": [
+                    "IA vocale générative (Complexe)": [
                         "20",
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "IA de restauration vocale": [
+                    "IA de restauration vocale (Complexe)": [
                         "20",
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "k-NN Vidéo": [
+                    "k-NN Vidéo (Complexe)": [
                         "10",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "GAN Vidéo": [
+                    "GAN Vidéo (Complexe)": [
                         "0",
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "NeRF": [
+                    "NeRF (Complexe)": [
                         "10",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Style Transfer": [
+                    "Style Transfer (Complexe)": [
                         "10",
                         "0",
                         "0"
@@ -1062,119 +1062,119 @@
             ],
             "scores": [
                 {
-                    "Régression Logistique": [
+                    "Régression Logistique (Simple)": [
                         "10",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "RNN": [
+                    "RNN (Intermédiaire)": [
                         "10",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "LSTM": [
+                    "LSTM (Complexe)": [
                         "0",
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "GPT": [
+                    "GPT (Complexe)": [
                         "10",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "GAN": [
+                    "GAN (Complexe)": [
                         "0",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "VAE": [
+                    "VAE (Complexe)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Stable Diffusion": [
+                    "Stable Diffusion (Complexe)": [
                         "0",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "DALL-E": [
+                    "DALL-E (Complexe)": [
                         "0",
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Midjourney": [
+                    "Midjourney (Complexe)": [
                         "0",
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "LSTM Audio": [
+                    "LSTM Audio (Complexe)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "WaveNet": [
+                    "WaveNet (Complexe)": [
                         "10",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "IA vocale générative": [
+                    "IA vocale générative (Complexe)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "IA de restauration vocale": [
+                    "IA de restauration vocale (Complexe)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "k-NN Vidéo": [
+                    "k-NN Vidéo (Complexe)": [
                         "10",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "GAN Vidéo": [
+                    "GAN Vidéo (Complexe)": [
                         "10",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "NeRF": [
+                    "NeRF (Complexe)": [
                         "10",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Style Transfer": [
+                    "Style Transfer (Complexe)": [
                         "10",
                         "10",
                         "0"

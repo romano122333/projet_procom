@@ -11,7 +11,7 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "inf_neg",
                         "10",
                         "0",
@@ -20,7 +20,7 @@
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "0",
                         "10",
                         "20",
@@ -29,7 +29,7 @@
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "10",
                         "10",
                         "0",
@@ -38,7 +38,7 @@
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "inf_neg",
                         "20",
                         "0",
@@ -47,7 +47,7 @@
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "inf_neg",
                         "inf_neg",
                         "20",
@@ -56,7 +56,7 @@
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "0",
                         "20",
                         "0",
@@ -65,7 +65,7 @@
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "20",
                         "inf_neg",
                         "20",
@@ -74,7 +74,7 @@
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "10",
                         "10",
                         "inf_neg",
@@ -83,7 +83,7 @@
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "10",
                         "10",
                         "inf_neg",
@@ -92,7 +92,7 @@
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "0",
                         "10",
                         "inf_neg",
@@ -101,7 +101,7 @@
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "0",
                         "inf_neg",
                         "20",
@@ -110,7 +110,7 @@
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "10",
                         "10",
                         "inf_neg",
@@ -119,7 +119,7 @@
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "20",
                         "0",
                         "inf_neg",
@@ -128,7 +128,7 @@
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "10",
                         "20",
                         "inf_neg",
@@ -137,7 +137,7 @@
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "20",
                         "inf_neg",
                         "inf_neg",
@@ -146,7 +146,7 @@
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "10",
                         "0",
                         "20",
@@ -155,7 +155,7 @@
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "0",
                         "20",
                         "inf_neg",
@@ -173,103 +173,103 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "20",
                         "0"
                     ]
@@ -284,103 +284,103 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "10",
                         "20"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "20",
                         "20"
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "20",
                         "20"
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "10",
                         "20"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "0",
                         "inf_neg"
                     ]
@@ -396,119 +396,119 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "10",
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "20",
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "20",
                         "inf_neg",
                         "10"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "20",
                         "inf_neg",
                         "10"
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "20",
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "10"
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "10",
                         "20",
                         "10"
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "inf_neg",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "20",
                         "10",
                         "20"
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "inf_neg",
                         "10",
                         "20"
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "0",
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "0",
                         "20",
                         "20"
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "10",
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "10",
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "0",
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "0",
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "10",
                         "inf_neg",
                         "inf_neg"
@@ -525,119 +525,119 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "10",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "10",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "20",
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "20",
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "0",
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "0",
                         "0",
                         "0"
@@ -653,103 +653,103 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "0",
                         "0"
                     ]
@@ -765,119 +765,119 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "10",
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "20",
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "20",
                         "20",
                         "10"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "inf_neg",
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "10",
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "0",
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "10",
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "inf_neg",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "20",
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "0",
                         "inf_neg",
                         "inf_neg"
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "20",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "10",
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "0",
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "10",
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "0",
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "20",
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "20",
                         "10",
                         "0"
@@ -893,103 +893,103 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "20",
                         "20"
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "20",
                         "10"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "20",
                         "10"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "20",
                         "20"
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "inf_neg",
                         "20"
                     ]
@@ -1004,103 +1004,103 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "10",
                         "20"
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "20",
                         "20"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "20",
                         "10"
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "10",
                         "20"
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "20",
                         "10"
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "inf_neg",
                         "20"
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "inf_neg",
                         "inf_neg"
                     ]
@@ -1115,103 +1115,103 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "20",
                         "20"
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "10",
                         "20"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "10",
                         "20"
                     ]
@@ -1226,103 +1226,103 @@
             ],
             "scores": [
                 {
-                    "Isolation Forest": [
+                    "Isolation Forest (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "One-Class SVM": [
+                    "One-Class SVM (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Local Outlier Factor (LOF)": [
+                    "Local Outlier Factor (LOF) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "PCA": [
+                    "PCA (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Variational Autoencoders (VAE)": [
+                    "Variational Autoencoders (VAE) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "GAN-Based (AnoGAN, FenceGAN)": [
+                    "GAN-Based (AnoGAN, FenceGAN) (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Robust Random Cut Forest (RRCF)": [
+                    "Robust Random Cut Forest (RRCF) (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HBOS": [
+                    "HBOS (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "ARIMA": [
+                    "ARIMA (Simple)": [
                         "20",
                         "20"
                     ]
                 },
                 {
-                    "LSTM Autoencoder": [
+                    "LSTM Autoencoder (Intermédiaire)": [
                         "20",
                         "20"
                     ]
                 },
                 {
-                    "Mahalanobis Distance": [
+                    "Mahalanobis Distance (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "XGBoost": [
+                    "XGBoost (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "LightGBM": [
+                    "LightGBM (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CatBoost": [
+                    "CatBoost (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hidden Markov Models (HMM)": [
+                    "Hidden Markov Models (HMM) (Simple)": [
                         "0",
                         "0"
                     ]

@@ -10,7 +10,7 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -18,7 +18,7 @@
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -26,7 +26,7 @@
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -34,7 +34,7 @@
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -42,7 +42,7 @@
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -50,7 +50,7 @@
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "inf_neg",
                         "0",
                         "0",
@@ -58,7 +58,7 @@
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -66,7 +66,7 @@
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -74,7 +74,7 @@
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "inf_neg",
                         "0",
                         "0",
@@ -82,7 +82,7 @@
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -90,7 +90,7 @@
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -98,7 +98,7 @@
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0",
                         "0",
@@ -106,7 +106,7 @@
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "inf_neg",
                         "0",
                         "0",
@@ -114,7 +114,7 @@
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "inf_neg",
                         "0",
                         "inf_neg",
@@ -122,7 +122,7 @@
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "inf_neg",
@@ -130,7 +130,7 @@
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "inf_neg",
@@ -138,7 +138,7 @@
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -146,7 +146,7 @@
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -154,7 +154,7 @@
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "inf_neg",
                         "0",
                         "inf_neg",
@@ -162,7 +162,7 @@
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "inf_neg",
@@ -170,7 +170,7 @@
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "inf_neg",
@@ -178,7 +178,7 @@
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "inf_neg",
                         "0",
                         "inf_neg",
@@ -186,7 +186,7 @@
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "inf_neg",
                         "0",
                         "0",
@@ -194,7 +194,7 @@
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0",
                         "0",
@@ -202,7 +202,7 @@
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "inf_neg",
                         "0",
                         "inf_neg",
@@ -210,7 +210,7 @@
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -218,7 +218,7 @@
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "0",
                         "inf_neg",
                         "0",
@@ -226,7 +226,7 @@
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "0",
                         "0",
                         "0",
@@ -234,7 +234,7 @@
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "0",
                         "0",
                         "0",
@@ -242,7 +242,7 @@
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "0",
                         "0",
                         "0",
@@ -250,7 +250,7 @@
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "0",
                         "0",
                         "0",
@@ -258,7 +258,7 @@
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "0",
                         "0",
                         "0",
@@ -266,7 +266,7 @@
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "0",
                         "0",
                         "0",
@@ -283,199 +283,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "10",
                         "10"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "10",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "0",
                         "20"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "0",
                         "20"
                     ]
@@ -490,199 +490,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "20",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "20",
                         "inf_neg"
                     ]
@@ -697,199 +697,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
@@ -904,199 +904,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
@@ -1111,199 +1111,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
@@ -1318,199 +1318,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "0",
                         "0"
                     ]
@@ -1525,199 +1525,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "20",
                         "0"
                     ]
@@ -1732,199 +1732,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "20",
                         "0"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "20",
                         "0"
                     ]
@@ -1939,199 +1939,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
@@ -2146,199 +2146,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "inf_neg",
                         "0"
                     ]
@@ -2353,199 +2353,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "10",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "0",
                         "inf_neg"
                     ]
@@ -2560,199 +2560,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "inf_neg",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "0",
                         "0"
                     ]
@@ -2767,199 +2767,199 @@
             ],
             "scores": [
                 {
-                    "K-Means": [
+                    "K-Means (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "K-Medoids": [
+                    "K-Medoids (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "DBSCAN": [
+                    "DBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "HDBSCAN": [
+                    "HDBSCAN (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Hierarchical Clustering": [
+                    "Hierarchical Clustering (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Gaussian Mixture Model": [
+                    "Gaussian Mixture Model (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Spectral Clustering": [
+                    "Spectral Clustering (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Mean Shift": [
+                    "Mean Shift (Simple)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Affinity Propagation": [
+                    "Affinity Propagation (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "BIRCH": [
+                    "BIRCH (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "OPTICS": [
+                    "OPTICS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Mean Clustering": [
+                    "Fuzzy C-Mean Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Self-Organizing Maps": [
+                    "Self-Organizing Maps (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Clustering Using Representatives": [
+                    "Clustering Using Representatives (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Subspace Clustering": [
+                    "Subspace Clustering (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Agglomerative Subspace Clustering": [
+                    "Agglomerative Subspace Clustering (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Spectral Clustering avec Kernel Trick": [
+                    "Spectral Clustering avec Kernel Trick (Intermédiaire)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "K-Prototypes": [
+                    "K-Prototypes (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy C-Varieties (FCV)": [
+                    "Fuzzy C-Varieties (FCV) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Denclue (Density-Based Clustering)": [
+                    "Denclue (Density-Based Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Grid-Based Clustering (Sting Wave Cluster)": [
+                    "Grid-Based Clustering (Sting Wave Cluster) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Relational Clustering (COBWEB)": [
+                    "Relational Clustering (COBWEB) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Neural Gas": [
+                    "Neural Gas (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Chamelon Clustering": [
+                    "Chamelon Clustering (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Fuzzy Adaptive Resonance Theory": [
+                    "Fuzzy Adaptive Resonance Theory (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "SNN (Shared Nearest Neighbor Clustering)": [
+                    "SNN (Shared Nearest Neighbor Clustering) (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "CLARANS": [
+                    "CLARANS (Intermédiaire)": [
                         "0",
                         "0"
                     ]
                 },
                 {
-                    "Autoencoders": [
+                    "Autoencoders (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Deep Embedded Clustering": [
+                    "Deep Embedded Clustering (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Deep Clustering Network": [
+                    "Deep Clustering Network (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "SpectralNet": [
+                    "SpectralNet (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Self-Supervised Learning Approaches": [
+                    "Self-Supervised Learning Approaches (Complexe)": [
                         "0",
                         "10"
                     ]
                 },
                 {
-                    "Generative Adversarial Networks": [
+                    "Generative Adversarial Networks (Complexe)": [
                         "0",
                         "10"
                     ]
