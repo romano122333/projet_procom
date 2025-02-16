@@ -40,6 +40,10 @@ function chooseUseCase() {
     }
 }
 
+/**
+ * Récupère les données des fichiers json.
+ */
+
 function loadJSON(jsonFile) {
     algo = true;
     fetch(jsonFile)
@@ -51,8 +55,8 @@ function loadJSON(jsonFile) {
         })
         .then(data => {
             jsonData = data;
-            initializeScores(jsonData); // Initialiser les scores des algorithmes
-            askQuestions(0); // Commencer les questions
+            initializeScores(jsonData);
+            askQuestions(0);
         })
         .catch(error => {
             console.error("Erreur lors du chargement du fichier JSON :", error);
