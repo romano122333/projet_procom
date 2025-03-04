@@ -201,7 +201,7 @@ function showFinalScores(scoresDict) {
 
     const resultsSection = document.getElementById('results-section');
     const resultsList = document.getElementById('results-list');
-    const restartButton = document.getElementById('restart-button');
+    // const restartButton = document.getElementById('restart-button');
 
     // Vide la liste des résultats pour éviter les doublons
     resultsList.innerHTML = '';
@@ -210,7 +210,7 @@ function showFinalScores(scoresDict) {
     for (let algorithm in scoresDict) {
         if (!(scoresDict[algorithm] == -Infinity)) {
             const listItem = document.createElement('li');
-            listItem.textContent = `${algorithm}: ${scoresDict[algorithm]}`;
+            listItem.textContent = `${algorithm}`;
             resultsList.appendChild(listItem);
         }
     }
@@ -219,8 +219,8 @@ function showFinalScores(scoresDict) {
     resultsSection.style.display = 'block';
 
     // Affiche le bouton "Relancer"
-    restartButton.style.display = 'block';
-    restartButton.addEventListener('click', resetAlgorithm); // Relie le clic au reset
+    // restartButton.style.display = 'block';
+    // restartButton.addEventListener('click', resetAlgorithm); // Relie le clic au reset
 }
 
 /**
